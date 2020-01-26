@@ -1,0 +1,96 @@
+body{
+ text-align: center;
+	background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+	color: white;
+	font-family: 'Crimson Text', serif;
+}
+.para{
+  width:60%;
+
+text-align: center;
+  font-size: 30px;
+  margin:auto;
+  margin-top: 20px;
+
+}
+h2 {
+	font-size:50px;
+	color:#D3D3D3;
+}
+h1{
+	font-size:90px;
+	color:#4da6ff;
+}
+.line{
+	border:3px solid lightblue;
+	width:300px;
+	margin:auto;
+	margin-top: -50px;
+}
+.footer{
+	background-color: transparent;
+	width:100%;
+	height:3em;
+	margin-left:0;
+	margin-right:0;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+.fa-facebook
+{
+	  background: #3B5998;
+  color: white;
+  margin-left:-140px;
+  position:absolute !important;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin:20px  !important;
+    margin-top: 0px !important;
+    margin-left:-65px !important;
+    position: absolute !important;
+}
+.fa-github1{
+    font-size:60px;
+    display:none;
+     position: absolute !important;
+       margin-top:20px !important;
+}
+
+
+.fa-github{
+    font-size:60px;
+   
+     position: absolute !important;
+      margin-top: -40px !important;
+    margin-left:-25px !important;
+}
+.footer{
+	margin-top: 50px;
+	    margin-top:20px !important;
+
+     position: absolute !important;
+}
+@max-screen and (max-width:450px){
+ .left, .main,.para, .right {
+    width: 100%; 
+
+}}
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
